@@ -1,0 +1,427 @@
+/* ==========================================================================
+   SERVICES PREVIEW SECTION (HOMEPAGE)
+   ========================================================================== */
+
+.services-preview {
+  position: relative;
+  width: 100%;
+  background-color: #121212;
+  /* Deep charcoal / near-black architectural tone */
+  color: var(--color-white);
+  padding: 2.5rem 0;
+  /* Extremely compact vertical padding */
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* ------------------------------------------------
+   TECHNICAL ARCHITECTURAL DETAILS
+   ------------------------------------------------ */
+.sp-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 100px 100px;
+  opacity: 0.02;
+  pointer-events: none;
+}
+
+.sp-grid-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.sp-line {
+  position: absolute;
+  background-color: var(--color-white);
+  opacity: 0.02;
+}
+
+.sp-horizontal-1 {
+  top: 4rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+}
+
+.sp-vertical-1 {
+  top: 0;
+  right: 3rem;
+  width: 1px;
+  height: 100%;
+}
+
+.sp-vertical-2 {
+  top: 0;
+  left: 3rem;
+  width: 1px;
+  height: 100%;
+}
+
+/* ------------------------------------------------
+   LAYOUT CONTAINER
+   ------------------------------------------------ */
+.sp-container {
+  position: relative;
+  max-width: 1250px;
+  /* Explicit max-width so columns aren't far apart */
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  z-index: 2;
+}
+
+/* ------------------------------------------------
+   EDITORIAL HEADER
+   ------------------------------------------------ */
+.sp-header {
+  margin-bottom: 2.5rem;
+  /* Match requested 2.5rem - 3rem */
+}
+
+.sp-header-top {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: monospace;
+  /* Technical feel */
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: var(--color-off-white);
+  opacity: 0.6;
+}
+
+.sp-number {
+  color: var(--color-accent-warm);
+  font-weight: 700;
+}
+
+.sp-tech-coord {
+  margin-right: auto;
+}
+
+.sp-header-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+}
+
+.sp-title {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 300;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: var(--color-white);
+}
+
+.sp-description {
+  font-size: 1.125rem;
+  max-width: 800px;
+  line-height: 1.6;
+  color: var(--color-off-white);
+  opacity: 0.8;
+}
+
+/* ------------------------------------------------
+   SERVICES GRID (ARCHITECTURAL PANELS)
+   ------------------------------------------------ */
+.sp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  /* Match requested 2rem - 3rem */
+  margin-bottom: 3rem;
+}
+
+.sp-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+  /* Center everything in the column visually */
+}
+
+/* Editorial staggering - removed to keep cards aligned on a single straight line */
+.sp-card-1 {
+  margin-top: 0;
+}
+
+.sp-card-2 {
+  margin-top: 0;
+}
+
+.sp-card-3 {
+  margin-top: 0;
+}
+
+.sp-card-image-wrap {
+  width: 100%;
+  max-width: 330px;
+  /* Match requested max-width 330px */
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1rem;
+  /* Tighter connection to text below */
+}
+
+.sp-card-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transform: scale(1.0);
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
+}
+
+.sp-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-black);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.sp-card-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 330px;
+  /* Match image width so text aligns nicely */
+  align-items: flex-start;
+  /* Align text to the start (right for RTL) */
+  margin-top: auto;
+  /* Guarantee bottom alignment */
+}
+
+.sp-card-number {
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: var(--color-accent-warm);
+  opacity: 0.8;
+  margin-bottom: 0.25rem;
+  /* Very close to title */
+  transition: color 0.4s ease;
+}
+
+.sp-card-title-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.sp-card-title {
+  font-size: 1.5rem;
+  /* Not oversized */
+  font-weight: 500;
+  transition: transform 0.4s ease;
+  color: var(--color-white);
+}
+
+.sp-card-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s ease;
+  color: var(--color-off-white);
+  opacity: 0.8;
+}
+
+.sp-blueprint-line {
+  display: none;
+}
+
+.sp-blueprint-line .bp-stroke {
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  transition: stroke-dashoffset 0.6s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.4s ease;
+}
+
+/* Subtle corner marks */
+.sp-card-marks .mark {
+  display: none;
+}
+
+.sp-card-marks .mark-tl {
+  top: -4px;
+  right: -4px;
+  border-bottom: none;
+  border-left: none;
+}
+
+.sp-card-marks .mark-br {
+  bottom: -4px;
+  left: -4px;
+  border-top: none;
+  border-right: none;
+}
+
+/* ------------------------------------------------
+   HOVER INTERACTIONS
+   ------------------------------------------------ */
+@media (hover: hover) {
+  .sp-card:hover .sp-card-image {
+    transform: scale(1.03);
+    filter: brightness(1.05);
+  }
+
+  .sp-card:hover .sp-card-overlay {
+    opacity: 0.1;
+  }
+
+  .sp-card:hover .sp-card-number {
+    color: var(--color-accent-warm);
+  }
+
+  .sp-card:hover .sp-card-title {
+    transform: translateX(-4px);
+  }
+
+  .sp-card:hover .sp-card-arrow {
+    transform: translateX(-8px);
+    color: var(--color-white);
+  }
+
+  /* Subdue other cards slightly */
+  .sp-grid:hover .sp-card:not(:hover) {
+    opacity: 0.6;
+  }
+}
+
+.sp-card {
+  transition: opacity 0.4s ease;
+  /* smooth fade for non-hovered items */
+}
+
+/* ------------------------------------------------
+   BOTTOM CTA
+   ------------------------------------------------ */
+.sp-footer {
+  display: flex;
+  justify-content: flex-end;
+  /* Push to left in RTL */
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sp-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--color-white);
+  cursor: pointer;
+  padding: 1rem 0;
+}
+
+.cta-line {
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: var(--color-white);
+  transition: width 0.4s ease;
+}
+
+.cta-arrow {
+  transition: transform 0.4s ease;
+}
+
+@media (hover: hover) {
+  .sp-cta:hover .cta-line {
+    width: 80px;
+  }
+
+  .sp-cta:hover .cta-arrow {
+    transform: translateX(-6px);
+  }
+}
+
+/* ------------------------------------------------
+   RESPONSIVE DESIGN
+   ------------------------------------------------ */
+@media (max-width: 1024px) {
+  .sp-title {
+    font-size: 3rem;
+  }
+
+  .sp-grid {
+    gap: 1rem;
+  }
+
+  /* Keep 3 columns on tablets/small laptops to ensure all 3 fit side-by-side */
+}
+
+@media (max-width: 768px) {
+  .services-preview {
+    padding: 3rem 0;
+  }
+
+  .sp-header-main {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: right;
+    gap: 1rem;
+  }
+
+  .sp-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .sp-card-3 {
+    grid-column: span 2;
+    max-width: 100%;
+  }
+
+  .sp-card-1,
+  .sp-card-2,
+  .sp-card-3 {
+    margin-top: 0;
+  }
+
+  .sp-card-image-wrap {
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+    /* Stable aspect ratio for small columns */
+  }
+
+  .sp-card-3 .sp-card-image-wrap {
+    aspect-ratio: 21 / 9;
+    /* Wider ratio for the full-width card so it's not too tall */
+  }
+
+  .sp-card-content {
+    max-width: 100%;
+    /* Allow text to flow naturally on mobile */
+    align-items: center;
+    /* Center the number and title block */
+  }
+
+  .sp-card-title-wrap {
+    justify-content: center;
+    /* Center title and arrow together */
+    gap: 0.75rem;
+    /* Keep them close */
+  }
+
+  .sp-footer {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,317 @@
+/* ==========================================================================
+   PORTFOLIO PAGE STYLES (PREMIUM DARK EDITORIAL)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   HERO BANNER
+   -------------------------------------------------------------------------- */
+.p-hero-banner {
+  position: relative;
+  width: 100%;
+  padding: 10rem 5vw 5rem;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.p-hero-banner__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/hero/hero-main.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.25;
+  mask-image: radial-gradient(ellipse at center, black 0%, transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.p-hero-banner__watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15vw;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.02);
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.p-hero-banner__subtitle {
+  color: var(--color-white);
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.p-hero-banner__title {
+  font-size: clamp(3rem, 6vw, 5rem);
+  color: var(--color-white);
+  margin-bottom: 1.5rem;
+  font-family: 'Amiri', serif;
+  position: relative;
+  z-index: 2;
+}
+
+.p-hero-banner__desc {
+  font-size: 1.1rem;
+  color: var(--color-off-white);
+  opacity: 0.8;
+  position: relative;
+  z-index: 2;
+}
+
+/* --------------------------------------------------------------------------
+   FILTERS
+   -------------------------------------------------------------------------- */
+.p-section {
+  padding: 4rem 5vw 8rem;
+  background-color: var(--color-black);
+}
+
+.p-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 1rem;
+}
+
+.p-filter-btn {
+  background: none;
+  border: none;
+  color: var(--color-off-white);
+  font-size: 1.1rem;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+  opacity: 0.6;
+}
+
+.p-filter-btn:hover {
+  color: var(--color-white);
+  opacity: 1;
+}
+
+.p-filter-btn.active {
+  color: var(--color-accent-warm);
+  opacity: 1;
+}
+
+.p-filter-btn::after {
+  content: '';
+  position: absolute;
+  bottom: -1rem; /* Aligns with the border-bottom of .p-filters */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-accent-warm);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.p-filter-btn.active::after {
+  transform: scaleX(1);
+}
+
+/* --------------------------------------------------------------------------
+   PORTFOLIO GRID (MASONRY-LIKE)
+   -------------------------------------------------------------------------- */
+.p-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .p-grid {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .p-grid {
+    /* Create a 4 column grid for the asymmetric look */
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 350px;
+  }
+}
+
+/* Base Card */
+.p-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #0a0a0a;
+  text-decoration: none;
+  group: hover;
+  opacity: 0; /* for animation */
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Large Card spans 2 columns on desktop */
+@media (min-width: 1024px) {
+  .p-card.item-large {
+    grid-column: span 2;
+  }
+  
+  /* Make regular cards span 1 column, but in row maybe span 1? 
+     Let's keep row span to 1 so all have the same height. */
+}
+
+.p-card__image-wrap {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.p-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.p-card:hover .p-card__image {
+  transform: scale(1.05);
+}
+
+/* Overlay gradient for text readability */
+.p-card__image-wrap::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  pointer-events: none;
+}
+
+.p-card__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 2;
+}
+
+.p-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.p-card__meta {
+  font-size: 0.85rem;
+  color: var(--color-accent-warm);
+  font-family: monospace;
+  letter-spacing: 1px;
+}
+
+.p-card__title {
+  font-size: 1.5rem;
+  color: var(--color-white);
+  font-family: 'Amiri', serif;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.p-card:hover .p-card__title {
+  color: var(--color-accent-warm);
+}
+
+.p-card__arrow {
+  color: var(--color-off-white);
+  font-size: 1.2rem;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  transform: translateX(0);
+}
+
+.p-card:hover .p-card__arrow {
+  opacity: 1;
+  color: var(--color-accent-warm);
+  transform: translateX(-10px); /* Move left for RTL */
+}
+
+/* --------------------------------------------------------------------------
+   LOAD MORE
+   -------------------------------------------------------------------------- */
+.p-load-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.p-load-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  background: none;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: var(--color-white);
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.p-load-more-btn:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.p-load-more-btn.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .p-card__content {
+    padding: 0.8rem;
+  }
+  .p-card__info {
+    gap: 0.2rem;
+  }
+  .p-card__title {
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+  .p-card__meta {
+    font-size: 0.65rem;
+  }
+  .p-card__arrow {
+    display: none;
+  }
+}

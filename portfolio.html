@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  \1
+
+    <!-- SEO & Open Graph Meta Tags -->
+    <meta name="description" content="شركة سكيب للإستشارات الهندسية - وجهتك الأولى للتصميم المعماري والإنشائي المتكامل في المدينة المنورة. حيث نجمع بين الإبداع والدقة لتحويل رؤيتك إلى واقع.">
+    <meta name="keywords" content="استشارات هندسية, تصميم معماري, تصميم انشائي, هندسة, المدينة المنورة, السعودية, ديكور, تصميم داخلي, سكيب, scape">
+    
+    <meta property="og:title" content="سكيب للإستشارات الهندسية | Scape Engineering">
+    <meta property="og:description" content="وجهتك الأولى للتصميم المعماري والإنشائي المتكامل في المدينة المنورة.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://scapeeng.com/">
+    <meta property="og:site_name" content="Scape Engineering">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="سكيب للإستشارات الهندسية">
+    <meta name="twitter:description" content="وجهتك الأولى للتصميم المعماري والإنشائي المتكامل في المدينة المنورة.">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>معرض أعمالنا | Scape</title>
+  <meta name="description" content="عن شركة سكيب للاستشارات الهندسية والتصاميم المعمارية والإنشائية.">
+  
+  <!-- Google Fonts: Amiri -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Fancybox Lightbox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Page Specific CSS -->
+  <link rel="stylesheet" href="css/portfolio-page.css">
+</head>
+
+<body>
+  <!-- App Container -->
+  <div id="app">
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+      <div class="navbar__container">
+        <a href="/" class="navbar__brand">
+          <span class="brand-title">سكيب</span>
+          <span class="brand-subtitle">للإستشارات الهندسية</span>
+        </a>
+        <nav class="navbar__nav">
+          <ul class="nav__list">
+            <li><a href="index.html#home" class="nav__link">الرئيسية</a></li>
+            <li><a href="/about/" class="nav__link">من نحن</a></li>
+            <li><a href="/services/" class="nav__link">خدماتنا</a></li>
+            <li><a href="/portfolio/" class="nav__link nav__link--active">معرض أعمالنا</a></li>
+            <li><a href="/projects/" class="nav__link">المشاريع</a></li>
+            <li><a href="/contact/" class="nav__link">تواصل معنا</a></li>
+          </ul>
+        </nav>
+        <div class="navbar__actions">
+          <a href="https://api.whatsapp.com/send/?phone=966565659333&text&type=phone_number&app_absent=0" target="_blank" class="nav__cta">طلب استشارة</a>
+          <button class="menu-toggle" aria-label="Toggle Menu">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Mobile Menu Overlay -->
+      <div class="mobile-menu">
+        <nav class="mobile-menu__nav">
+          <ul class="mobile-menu__list">
+            <li><a href="/" class="mobile-menu__link">الرئيسية</a></li>
+            <li><a href="/about/" class="mobile-menu__link">من نحن</a></li>
+            <li><a href="/services/" class="mobile-menu__link">خدماتنا</a></li>
+            <li><a href="/portfolio/" class="mobile-menu__link active">معرض أعمالنا</a></li>
+            <li><a href="/projects/" class="mobile-menu__link">المشاريع</a></li>
+            <li><a href="/contact/" class="mobile-menu__link">تواصل معنا</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO BANNER -->
+    <section class="p-hero-banner">
+      <div class="p-hero-banner__bg"></div>
+      <div class="p-hero-banner__watermark">سكيب</div>
+      <h1 class="p-hero-banner__title"><span style="color: var(--color-accent-warm);">معرض </span>أعمالنا</h1>
+      <span class="p-hero-banner__subtitle">نستعرض لكم بعض من مشاريعنا التي نفخر بها</span>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="p-section" id="portfolio-section">
+      <!-- FILTERS -->
+      <div class="p-filters">
+        <button class="p-filter-btn active" data-filter="all">كل المشاريع</button>
+        <button class="p-filter-btn" data-filter="residential">عمائر سكنية</button>
+        <button class="p-filter-btn" data-filter="commercial">مجمعات تجارية</button>
+        <button class="p-filter-btn" data-filter="villas">فلل وقصور</button>
+        <button class="p-filter-btn" data-filter="interior">تصاميم داخلية</button>
+        <button class="p-filter-btn" data-filter="gas">محطات وقود</button>
+      </div>
+
+      <!-- PORTFOLIO GRID -->
+      <div class="p-grid" id="portfolio-grid">
+        <!-- Images will be injected here by JS -->
+      </div>
+
+      <!-- LOAD MORE BUTTON -->
+      <div class="p-load-more-container">
+        <button class="p-load-more-btn" id="load-more-btn">
+          تصفح جميع مشاريعنا <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+    </section>
+
+                <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <!-- Column 1: Logo & About -->
+          <div class="footer-col-about">
+            <a href="/" class="footer-logo">
+              <h2 style="color: var(--color-white); margin-bottom: 15px; font-size: 2.5rem; font-weight: 700;">سكيب</h2>
+            </a>
+            <p class="footer-about-text">
+              شركة سكيب للاستشارات الهندسية - وجهتك الأولى للتصميم المعماري والإنشائي المتكامل، حيث نجمع بين الإبداع والدقة لتحويل رؤيتك إلى واقع.
+            </p>
+          </div>
+
+          <!-- Column 2: Quick Links -->
+          <div class="footer-col-links">
+            <h3 class="footer-heading">روابط سريعة</h3>
+            <ul class="footer-links">
+              <li><a href="/projects/">المشاريع</a></li>
+              <li><a href="/about/">من نحن</a></li>
+              <li><a href="/services/">خدماتنا</a></li>
+              <li><a href="/portfolio/">أعمالنا</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Contact Info -->
+          <div class="footer-col-contact">
+            <h3 class="footer-heading">تواصل معنا</h3>
+            <ul class="footer-contact-list">
+              <li>
+                <span class="footer-contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </span>
+                <span>المدينة المنورة - الدائري الثاني</span>
+              </li>
+              <li>
+                <span class="footer-contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </span>
+                <span dir="ltr">٠٥٦٥٦٥٩٣٣٣</span>
+              </li>
+              <li>
+                <span class="footer-contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </span>
+                <span>scape.eng@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            © جميع الحقوق محفوظة لشركة سكيب للاستشارات الهندسية
+          </div>
+                    <div class="footer-social">
+            <a href="#" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="#" aria-label="Snapchat">
+              <i class="fa-brands fa-snapchat"></i>
+            </a>
+          </div>
+          <div class="footer-bottom-links">
+            <a href="/contact/">إتصل بنا</a>
+            <span>|</span>
+            <a href="#">تصميم إكس</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <!-- Fancybox JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind('[data-fancybox="portfolio-gallery"]', {
+      Thumbs: {
+        autoStart: true,
+      },
+    });
+  </script>
+  <script src="js/portfolio-data.js"></script>
+  <script src="js/portfolio.js"></script>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://api.whatsapp.com/send/?phone=966565659333&text&type=phone_number&app_absent=0" class="floating-whatsapp" target="_blank" aria-label="تواصل معنا عبر واتساب">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</body>
+</html>
+
+
+

@@ -1,0 +1,392 @@
+/* ==========================================================================
+   PROJECTS PAGE STYLES (PREMIUM DARK MASONRY)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   HERO BANNER
+   -------------------------------------------------------------------------- */
+.proj-hero {
+  position: relative;
+  width: 100%;
+  padding: 10rem 5vw 8rem;
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  min-height: 80vh;
+}
+
+.proj-hero__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+  pointer-events: none;
+}
+
+.proj-hero__content {
+  position: relative;
+  z-index: 2;
+  width: 40%;
+  padding-left: 5vw;
+}
+
+.proj-hero__badge {
+  color: var(--color-accent-warm);
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+.proj-hero__badge::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: var(--color-accent-warm);
+}
+
+.proj-hero__title {
+  font-size: clamp(3rem, 6vw, 5rem);
+  color: var(--color-white);
+  margin-bottom: 1.5rem;
+  font-family: 'Amiri', serif;
+}
+
+.proj-hero__desc {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 400px;
+}
+
+.proj-hero__image-wrapper {
+  position: relative;
+  z-index: 2;
+  width: 55%;
+  height: 60vh;
+}
+
+.proj-hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.proj-hero__watermark {
+  position: absolute;
+  top: 10%;
+  left: 5vw;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  color: rgba(255, 255, 255, 0.1);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+/* --------------------------------------------------------------------------
+   FILTER BAR
+   -------------------------------------------------------------------------- */
+.proj-filter {
+  background-color: var(--color-black);
+  padding: 0 5vw;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.proj-filter-btn {
+  background-color: #1a1a1a;
+  border: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 1.5rem 2rem;
+  transition: all 0.3s ease;
+  font-family: 'Alexandria', sans-serif;
+  flex: 1;
+  text-align: center;
+}
+
+.proj-filter-btn:hover {
+  background-color: #2a2a2a;
+}
+
+.proj-filter-btn.active {
+  background-color: #d8b871; /* Golden color matching the image */
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------
+   PROJECTS GRID
+   -------------------------------------------------------------------------- */
+.proj-section {
+  background-color: var(--color-black);
+  padding: 5rem 5vw 10rem;
+}
+
+.proj-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* Project Card Base */
+.proj-card {
+  position: relative;
+  background-color: var(--color-black);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.4s ease, border-color 0.4s ease;
+}
+.proj-card:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-5px);
+}
+
+/* Full Width Card */
+.proj-card--full {
+  grid-column: span 2;
+  flex-direction: row;
+  height: 500px;
+}
+.proj-card--full .proj-card__image-wrapper {
+  width: 65%;
+  height: 100%;
+}
+.proj-card--full .proj-card__content {
+  width: 35%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Half Width Card */
+.proj-card--half {
+  grid-column: span 1;
+  height: 600px;
+}
+.proj-card--half .proj-card__image-wrapper {
+  width: 100%;
+  height: 70%;
+}
+.proj-card--half .proj-card__content {
+  width: 100%;
+  height: 30%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Common Card Elements */
+.proj-card__image-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.proj-card__image-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.proj-card:hover .proj-card__image-wrapper::after {
+  opacity: 1;
+}
+
+.proj-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+.proj-card:hover .proj-card__image {
+  transform: scale(1.05);
+}
+
+.proj-card__num {
+  color: var(--color-accent-warm);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.proj-card__num::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.proj-card__title {
+  color: var(--color-white);
+  font-size: 2rem;
+  font-family: 'Amiri', serif;
+  margin-bottom: 0.5rem;
+}
+
+.proj-card__subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.proj-card__meta {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 1.5rem;
+}
+
+.proj-card__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+}
+.proj-card__meta-item i {
+  color: var(--color-accent-warm);
+}
+
+.proj-card__arrow {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+.proj-card__arrow i {
+  transition: transform 0.3s ease;
+}
+.proj-card:hover .proj-card__arrow {
+  color: var(--color-accent-warm);
+}
+.proj-card:hover .proj-card__arrow i {
+  transform: translateX(-5px); /* Move left for RTL */
+}
+
+/* --------------------------------------------------------------------------
+   CTA BANNER (Bottom)
+   -------------------------------------------------------------------------- */
+.proj-cta {
+  background-color: var(--color-black);
+  padding: 5rem 5vw;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.proj-cta__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(200, 160, 90, 0.1) 100%);
+  pointer-events: none;
+}
+
+.proj-cta__content {
+  position: relative;
+  z-index: 2;
+}
+
+.proj-cta__hint {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.proj-cta__title {
+  color: var(--color-white);
+  font-size: 2.5rem;
+  font-family: 'Amiri', serif;
+}
+
+.proj-cta__btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+.proj-cta__btn:hover {
+  background-color: var(--color-accent-warm);
+  border-color: var(--color-accent-warm);
+  color: var(--color-black);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .proj-hero {
+    flex-direction: column;
+    padding-top: 12rem;
+  }
+  .proj-hero__content {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .proj-hero__image-wrapper {
+    width: 100%;
+    height: 40vh;
+  }
+  .proj-hero__watermark {
+    display: none;
+  }
+  
+  .proj-grid {
+    grid-template-columns: 1fr;
+  }
+  .proj-card--full, .proj-card--half {
+    grid-column: span 1;
+    flex-direction: column;
+    height: auto;
+  }
+  .proj-card--full .proj-card__image-wrapper,
+  .proj-card--half .proj-card__image-wrapper {
+    width: 100%;
+    height: 300px;
+  }
+  .proj-card--full .proj-card__content,
+  .proj-card--half .proj-card__content {
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .proj-cta {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,242 @@
+/* ==========================================================================
+   WORK PREVIEW SECTION (ARCHITECTURAL MOSAIC)
+   ========================================================================== */
+
+.work-preview {
+  position: relative;
+  width: 100%;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 8rem 0;
+  z-index: 1;
+}
+
+/* Ambient noise removed for performance */
+
+/* ------------------------------------------------
+   HEADER
+   ------------------------------------------------ */
+.wp-header-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  margin-bottom: 5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.wp-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: var(--color-white);
+}
+
+.wp-description {
+  font-size: 1.125rem;
+  max-width: 800px;
+  line-height: 1.6;
+  color: var(--color-off-white);
+  opacity: 0.8;
+}
+
+/* ------------------------------------------------
+   MOSAIC GRID
+   ------------------------------------------------ */
+.wp-gallery-container {
+  max-width: 1250px;
+  /* Constrained width so images don't get too large */
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  position: relative;
+  z-index: 2;
+}
+
+.wp-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(120px, 15vw);
+  gap: 12px;
+}
+
+@media (min-width: 1250px) {
+  .wp-gallery {
+    grid-auto-rows: 180px;
+    /* Fixed row height on desktop to keep images perfectly sized */
+  }
+}
+
+.wp-project {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 0;
+  /* Sharp architectural corners */
+  background-color: #111;
+}
+
+/* Grid Spans - Perfect Interlocking Rhythm */
+.wp-span-1x1 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.wp-span-2x2 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.wp-span-2x3 {
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+.wp-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transform: scale(1.02);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), filter 0.8s ease;
+  filter: brightness(0.9);
+}
+
+/* Meta Data (Overlaid) */
+.wp-meta {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: var(--color-white);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+  z-index: 2;
+}
+
+/* ------------------------------------------------
+   HOVER
+   ------------------------------------------------ */
+@media (hover: hover) {
+  .wp-project:hover .wp-image {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+
+  .wp-project:hover .wp-meta {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ------------------------------------------------
+   FOOTER CTA
+   ------------------------------------------------ */
+.wp-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  position: relative;
+  z-index: 2;
+}
+
+.wp-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+  color: var(--color-white);
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: border-color 0.4s ease, color 0.4s ease;
+}
+
+.wp-cta-arrow {
+  font-family: monospace;
+  transition: transform 0.4s ease;
+  color: var(--color-accent-warm);
+}
+
+@media (hover: hover) {
+  .wp-cta:hover {
+    color: var(--color-accent-warm);
+    border-color: var(--color-accent-warm);
+  }
+
+  .wp-cta:hover .wp-cta-arrow {
+    transform: translateX(-8px);
+  }
+}
+
+/* ------------------------------------------------
+   RESPONSIVE
+   ------------------------------------------------ */
+@media (max-width: 1024px) {
+  .wp-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(200px, 25vw);
+  }
+
+  /* On tablets, adjust spans */
+  .wp-span-2x3 {
+    grid-row: span 2;
+  }
+
+  .wp-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .work-preview {
+    padding: 3rem 0;
+  }
+
+  .wp-header-main {
+    margin-bottom: 2rem;
+  }
+
+  .wp-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem; /* Increased gap so images aren't stuck together */
+  }
+
+  .wp-project {
+    height: auto;
+    aspect-ratio: 1; /* Square images look neat in a tight 2-column mobile grid */
+  }
+
+  /* Force all spans to 1 cell on mobile so the grid stays perfectly aligned */
+  .wp-span-1x1,
+  .wp-span-2x2,
+  .wp-span-2x3 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .wp-meta {
+    opacity: 1;
+    transform: translateY(0);
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+  
+  .wp-footer {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
