@@ -5,7 +5,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-1.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-1.webp",
     "isLarge": true
   },
   {
@@ -13,7 +13,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-10.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-10.webp",
     "isLarge": false
   },
   {
@@ -21,7 +21,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-11.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-11.webp",
     "isLarge": false
   },
   {
@@ -29,7 +29,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-12.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-12.webp",
     "isLarge": false
   },
   {
@@ -37,7 +37,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-13.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-13.webp",
     "isLarge": true
   },
   {
@@ -45,7 +45,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-14.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-14.webp",
     "isLarge": false
   },
   {
@@ -53,7 +53,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-15.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-15.webp",
     "isLarge": false
   },
   {
@@ -61,7 +61,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-16.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-16.webp",
     "isLarge": false
   },
   {
@@ -69,7 +69,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-17.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-17.webp",
     "isLarge": true
   },
   {
@@ -77,7 +77,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-18.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-18.webp",
     "isLarge": false
   },
   {
@@ -85,7 +85,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-19.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-19.webp",
     "isLarge": false
   },
   {
@@ -93,7 +93,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-2.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-2.webp",
     "isLarge": false
   },
   {
@@ -101,7 +101,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-20.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-20.webp",
     "isLarge": true
   },
   {
@@ -109,7 +109,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-21.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-21.webp",
     "isLarge": false
   },
   {
@@ -117,7 +117,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-22.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-22.webp",
     "isLarge": false
   },
   {
@@ -125,7 +125,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-23.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-23.webp",
     "isLarge": false
   },
   {
@@ -133,7 +133,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-24.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-24.webp",
     "isLarge": true
   },
   {
@@ -141,7 +141,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-25.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-25.webp",
     "isLarge": false
   },
   {
@@ -149,7 +149,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-26.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-26.webp",
     "isLarge": false
   },
   {
@@ -157,7 +157,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-27.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-27.webp",
     "isLarge": false
   },
   {
@@ -165,7 +165,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-28.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-28.webp",
     "isLarge": true
   },
   {
@@ -173,7 +173,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-29.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-29.webp",
     "isLarge": false
   },
   {
@@ -181,7 +181,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-3.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-3.webp",
     "isLarge": false
   },
   {
@@ -189,7 +189,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-30.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-30.webp",
     "isLarge": false
   },
   {
@@ -197,7 +197,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-31.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-31.webp",
     "isLarge": true
   },
   {
@@ -205,7 +205,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-32.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-32.webp",
     "isLarge": false
   },
   {
@@ -213,7 +213,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-33.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-33.webp",
     "isLarge": false
   },
   {
@@ -221,7 +221,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-34.jpg",
+    "imagePath": "/assets/images/portfolio/commercial/comm-34.jpg",
     "isLarge": false
   },
   {
@@ -229,7 +229,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-35.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-35.webp",
     "isLarge": true
   },
   {
@@ -237,7 +237,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-36.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-36.webp",
     "isLarge": false
   },
   {
@@ -245,7 +245,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-37.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-37.webp",
     "isLarge": false
   },
   {
@@ -253,7 +253,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-38.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-38.webp",
     "isLarge": false
   },
   {
@@ -261,7 +261,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-39.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-39.webp",
     "isLarge": true
   },
   {
@@ -269,7 +269,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-4.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-4.webp",
     "isLarge": false
   },
   {
@@ -277,7 +277,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-40.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-40.webp",
     "isLarge": false
   },
   {
@@ -285,7 +285,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-41.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-41.webp",
     "isLarge": false
   },
   {
@@ -293,7 +293,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-42.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-42.webp",
     "isLarge": true
   },
   {
@@ -301,7 +301,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-43.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-43.webp",
     "isLarge": false
   },
   {
@@ -309,7 +309,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-44.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-44.webp",
     "isLarge": false
   },
   {
@@ -317,7 +317,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-5.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-5.webp",
     "isLarge": false
   },
   {
@@ -325,7 +325,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-7.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-7.webp",
     "isLarge": true
   },
   {
@@ -333,7 +333,7 @@ const portfolioImages = [
     "categoryId": "commercial",
     "categoryName": "مجمعات ومولات تجارية",
     "title": "مجمعات ومولات تجارية",
-    "imagePath": "assets/images/portfolio/commercial/comm-9.webp",
+    "imagePath": "/assets/images/portfolio/commercial/comm-9.webp",
     "isLarge": false
   },
   {
@@ -341,7 +341,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-1.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-1.webp",
     "isLarge": false
   },
   {
@@ -349,7 +349,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-10.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-10.webp",
     "isLarge": false
   },
   {
@@ -357,7 +357,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-11.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-11.webp",
     "isLarge": true
   },
   {
@@ -365,7 +365,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-12.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-12.webp",
     "isLarge": false
   },
   {
@@ -373,7 +373,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-13.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-13.webp",
     "isLarge": false
   },
   {
@@ -381,7 +381,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-14.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-14.webp",
     "isLarge": false
   },
   {
@@ -389,7 +389,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-15.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-15.webp",
     "isLarge": true
   },
   {
@@ -397,7 +397,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-16.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-16.webp",
     "isLarge": false
   },
   {
@@ -405,7 +405,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-17.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-17.webp",
     "isLarge": false
   },
   {
@@ -413,7 +413,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-18.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-18.webp",
     "isLarge": false
   },
   {
@@ -421,7 +421,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-19.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-19.webp",
     "isLarge": true
   },
   {
@@ -429,7 +429,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-2.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-2.webp",
     "isLarge": false
   },
   {
@@ -437,7 +437,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-20.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-20.webp",
     "isLarge": false
   },
   {
@@ -445,7 +445,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-21.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-21.webp",
     "isLarge": false
   },
   {
@@ -453,7 +453,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-22.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-22.webp",
     "isLarge": true
   },
   {
@@ -461,7 +461,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-23.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-23.webp",
     "isLarge": false
   },
   {
@@ -469,7 +469,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-24.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-24.webp",
     "isLarge": false
   },
   {
@@ -477,7 +477,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-25.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-25.webp",
     "isLarge": false
   },
   {
@@ -485,7 +485,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-26.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-26.webp",
     "isLarge": true
   },
   {
@@ -493,7 +493,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-27.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-27.webp",
     "isLarge": false
   },
   {
@@ -501,7 +501,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-28.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-28.webp",
     "isLarge": false
   },
   {
@@ -509,7 +509,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-29.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-29.webp",
     "isLarge": false
   },
   {
@@ -517,7 +517,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-3.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-3.webp",
     "isLarge": true
   },
   {
@@ -525,7 +525,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-30.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-30.webp",
     "isLarge": false
   },
   {
@@ -533,7 +533,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-31.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-31.webp",
     "isLarge": false
   },
   {
@@ -541,7 +541,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-32.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-32.webp",
     "isLarge": false
   },
   {
@@ -549,7 +549,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-33.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-33.webp",
     "isLarge": true
   },
   {
@@ -557,7 +557,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-34.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-34.webp",
     "isLarge": false
   },
   {
@@ -565,7 +565,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-35.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-35.webp",
     "isLarge": false
   },
   {
@@ -573,7 +573,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-36.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-36.webp",
     "isLarge": false
   },
   {
@@ -581,7 +581,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-37.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-37.webp",
     "isLarge": true
   },
   {
@@ -589,7 +589,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-38.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-38.webp",
     "isLarge": false
   },
   {
@@ -597,7 +597,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-39.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-39.webp",
     "isLarge": false
   },
   {
@@ -605,7 +605,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-4.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-4.webp",
     "isLarge": false
   },
   {
@@ -613,7 +613,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-40.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-40.webp",
     "isLarge": true
   },
   {
@@ -621,7 +621,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-41.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-41.webp",
     "isLarge": false
   },
   {
@@ -629,7 +629,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-42.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-42.webp",
     "isLarge": false
   },
   {
@@ -637,7 +637,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-43.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-43.webp",
     "isLarge": false
   },
   {
@@ -645,7 +645,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-44.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-44.webp",
     "isLarge": true
   },
   {
@@ -653,7 +653,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-45.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-45.webp",
     "isLarge": false
   },
   {
@@ -661,7 +661,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-46.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-46.webp",
     "isLarge": false
   },
   {
@@ -669,7 +669,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-47.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-47.webp",
     "isLarge": false
   },
   {
@@ -677,7 +677,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-48.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-48.webp",
     "isLarge": true
   },
   {
@@ -685,7 +685,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-49.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-49.webp",
     "isLarge": false
   },
   {
@@ -693,7 +693,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-5.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-5.webp",
     "isLarge": false
   },
   {
@@ -701,7 +701,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-50.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-50.webp",
     "isLarge": false
   },
   {
@@ -709,7 +709,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-51.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-51.webp",
     "isLarge": true
   },
   {
@@ -717,7 +717,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-52.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-52.webp",
     "isLarge": false
   },
   {
@@ -725,7 +725,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-53.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-53.webp",
     "isLarge": false
   },
   {
@@ -733,7 +733,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-54.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-54.webp",
     "isLarge": false
   },
   {
@@ -741,7 +741,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-55.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-55.webp",
     "isLarge": true
   },
   {
@@ -749,7 +749,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-56.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-56.webp",
     "isLarge": false
   },
   {
@@ -757,7 +757,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-57.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-57.webp",
     "isLarge": false
   },
   {
@@ -765,7 +765,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-58.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-58.webp",
     "isLarge": false
   },
   {
@@ -773,7 +773,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-59.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-59.webp",
     "isLarge": true
   },
   {
@@ -781,7 +781,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-6.jpg",
+    "imagePath": "/assets/images/portfolio/gas/gas-6.jpg",
     "isLarge": false
   },
   {
@@ -789,7 +789,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-60.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-60.webp",
     "isLarge": false
   },
   {
@@ -797,7 +797,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-61.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-61.webp",
     "isLarge": false
   },
   {
@@ -805,7 +805,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-62.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-62.webp",
     "isLarge": true
   },
   {
@@ -813,7 +813,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-63.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-63.webp",
     "isLarge": false
   },
   {
@@ -821,7 +821,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-64.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-64.webp",
     "isLarge": false
   },
   {
@@ -829,7 +829,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-65.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-65.webp",
     "isLarge": false
   },
   {
@@ -837,7 +837,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-66.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-66.webp",
     "isLarge": true
   },
   {
@@ -845,7 +845,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-67.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-67.webp",
     "isLarge": false
   },
   {
@@ -853,7 +853,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-68.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-68.webp",
     "isLarge": false
   },
   {
@@ -861,7 +861,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-69.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-69.webp",
     "isLarge": false
   },
   {
@@ -869,7 +869,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-7.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-7.webp",
     "isLarge": true
   },
   {
@@ -877,7 +877,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-70.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-70.webp",
     "isLarge": false
   },
   {
@@ -885,7 +885,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-71.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-71.webp",
     "isLarge": false
   },
   {
@@ -893,7 +893,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-72.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-72.webp",
     "isLarge": false
   },
   {
@@ -901,7 +901,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-73.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-73.webp",
     "isLarge": true
   },
   {
@@ -909,7 +909,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-74.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-74.webp",
     "isLarge": false
   },
   {
@@ -917,7 +917,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-75.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-75.webp",
     "isLarge": false
   },
   {
@@ -925,7 +925,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-76.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-76.webp",
     "isLarge": false
   },
   {
@@ -933,7 +933,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-77.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-77.webp",
     "isLarge": true
   },
   {
@@ -941,7 +941,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-78.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-78.webp",
     "isLarge": false
   },
   {
@@ -949,7 +949,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-79.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-79.webp",
     "isLarge": false
   },
   {
@@ -957,7 +957,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-8.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-8.webp",
     "isLarge": false
   },
   {
@@ -965,7 +965,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-80.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-80.webp",
     "isLarge": true
   },
   {
@@ -973,7 +973,7 @@ const portfolioImages = [
     "categoryId": "gas",
     "categoryName": "محطات وقود",
     "title": "محطات وقود",
-    "imagePath": "assets/images/portfolio/gas/gas-9.webp",
+    "imagePath": "/assets/images/portfolio/gas/gas-9.webp",
     "isLarge": false
   },
   {
@@ -981,7 +981,7 @@ const portfolioImages = [
     "categoryId": "interior",
     "categoryName": "تصاميم داخلية",
     "title": "تصاميم داخلية",
-    "imagePath": "assets/images/portfolio/interior/int-1.webp",
+    "imagePath": "/assets/images/portfolio/interior/int-1.webp",
     "isLarge": false
   },
   {
@@ -989,7 +989,7 @@ const portfolioImages = [
     "categoryId": "interior",
     "categoryName": "تصاميم داخلية",
     "title": "تصاميم داخلية",
-    "imagePath": "assets/images/portfolio/interior/int-10.webp",
+    "imagePath": "/assets/images/portfolio/interior/int-10.webp",
     "isLarge": false
   },
   {
@@ -997,7 +997,7 @@ const portfolioImages = [
     "categoryId": "interior",
     "categoryName": "تصاميم داخلية",
     "title": "تصاميم داخلية",
-    "imagePath": "assets/images/portfolio/interior/int-2.webp",
+    "imagePath": "/assets/images/portfolio/interior/int-2.webp",
     "isLarge": true
   },
   {
@@ -1005,7 +1005,7 @@ const portfolioImages = [
     "categoryId": "interior",
     "categoryName": "تصاميم داخلية",
     "title": "تصاميم داخلية",
-    "imagePath": "assets/images/portfolio/interior/int-3.webp",
+    "imagePath": "/assets/images/portfolio/interior/int-3.webp",
     "isLarge": false
   },
   {
@@ -1013,7 +1013,7 @@ const portfolioImages = [
     "categoryId": "interior",
     "categoryName": "تصاميم داخلية",
     "title": "تصاميم داخلية",
-    "imagePath": "assets/images/portfolio/interior/int-4.webp",
+    "imagePath": "/assets/images/portfolio/interior/int-4.webp",
     "isLarge": false
   },
   {
@@ -1021,7 +1021,7 @@ const portfolioImages = [
     "categoryId": "interior",
     "categoryName": "تصاميم داخلية",
     "title": "تصاميم داخلية",
-    "imagePath": "assets/images/portfolio/interior/int-5.webp",
+    "imagePath": "/assets/images/portfolio/interior/int-5.webp",
     "isLarge": false
   },
   {
@@ -1029,7 +1029,7 @@ const portfolioImages = [
     "categoryId": "interior",
     "categoryName": "تصاميم داخلية",
     "title": "تصاميم داخلية",
-    "imagePath": "assets/images/portfolio/interior/int-6.webp",
+    "imagePath": "/assets/images/portfolio/interior/int-6.webp",
     "isLarge": true
   },
   {
@@ -1037,7 +1037,7 @@ const portfolioImages = [
     "categoryId": "interior",
     "categoryName": "تصاميم داخلية",
     "title": "تصاميم داخلية",
-    "imagePath": "assets/images/portfolio/interior/int-7.webp",
+    "imagePath": "/assets/images/portfolio/interior/int-7.webp",
     "isLarge": false
   },
   {
@@ -1045,7 +1045,7 @@ const portfolioImages = [
     "categoryId": "interior",
     "categoryName": "تصاميم داخلية",
     "title": "تصاميم داخلية",
-    "imagePath": "assets/images/portfolio/interior/int-8.webp",
+    "imagePath": "/assets/images/portfolio/interior/int-8.webp",
     "isLarge": false
   },
   {
@@ -1053,7 +1053,7 @@ const portfolioImages = [
     "categoryId": "interior",
     "categoryName": "تصاميم داخلية",
     "title": "تصاميم داخلية",
-    "imagePath": "assets/images/portfolio/interior/int-9.webp",
+    "imagePath": "/assets/images/portfolio/interior/int-9.webp",
     "isLarge": false
   },
   {
@@ -1061,7 +1061,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-1.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-1.webp",
     "isLarge": true
   },
   {
@@ -1069,7 +1069,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-10.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-10.webp",
     "isLarge": false
   },
   {
@@ -1077,7 +1077,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-11.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-11.webp",
     "isLarge": false
   },
   {
@@ -1085,7 +1085,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-12.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-12.webp",
     "isLarge": false
   },
   {
@@ -1093,7 +1093,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-13.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-13.webp",
     "isLarge": true
   },
   {
@@ -1101,7 +1101,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-14.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-14.webp",
     "isLarge": false
   },
   {
@@ -1109,7 +1109,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-15.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-15.webp",
     "isLarge": false
   },
   {
@@ -1117,7 +1117,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-16.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-16.webp",
     "isLarge": false
   },
   {
@@ -1125,7 +1125,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-17.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-17.webp",
     "isLarge": true
   },
   {
@@ -1133,7 +1133,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-18.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-18.webp",
     "isLarge": false
   },
   {
@@ -1141,7 +1141,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-19.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-19.webp",
     "isLarge": false
   },
   {
@@ -1149,7 +1149,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-2.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-2.webp",
     "isLarge": false
   },
   {
@@ -1157,7 +1157,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-20.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-20.webp",
     "isLarge": true
   },
   {
@@ -1165,7 +1165,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-21.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-21.webp",
     "isLarge": false
   },
   {
@@ -1173,7 +1173,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-22.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-22.webp",
     "isLarge": false
   },
   {
@@ -1181,7 +1181,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-23.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-23.webp",
     "isLarge": false
   },
   {
@@ -1189,7 +1189,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-24.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-24.webp",
     "isLarge": true
   },
   {
@@ -1197,7 +1197,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-25.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-25.webp",
     "isLarge": false
   },
   {
@@ -1205,7 +1205,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-26.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-26.webp",
     "isLarge": false
   },
   {
@@ -1213,7 +1213,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-27.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-27.webp",
     "isLarge": false
   },
   {
@@ -1221,7 +1221,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-28.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-28.webp",
     "isLarge": true
   },
   {
@@ -1229,7 +1229,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-29.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-29.webp",
     "isLarge": false
   },
   {
@@ -1237,7 +1237,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-3.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-3.webp",
     "isLarge": false
   },
   {
@@ -1245,7 +1245,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-31.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-31.webp",
     "isLarge": false
   },
   {
@@ -1253,7 +1253,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-32.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-32.webp",
     "isLarge": true
   },
   {
@@ -1261,7 +1261,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-33.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-33.webp",
     "isLarge": false
   },
   {
@@ -1269,7 +1269,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-34.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-34.webp",
     "isLarge": false
   },
   {
@@ -1277,7 +1277,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-35.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-35.webp",
     "isLarge": false
   },
   {
@@ -1285,7 +1285,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-36.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-36.webp",
     "isLarge": true
   },
   {
@@ -1293,7 +1293,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-37.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-37.webp",
     "isLarge": false
   },
   {
@@ -1301,7 +1301,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-38.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-38.webp",
     "isLarge": false
   },
   {
@@ -1309,7 +1309,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-39.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-39.webp",
     "isLarge": false
   },
   {
@@ -1317,7 +1317,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-4.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-4.webp",
     "isLarge": true
   },
   {
@@ -1325,7 +1325,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-40.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-40.webp",
     "isLarge": false
   },
   {
@@ -1333,7 +1333,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-41.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-41.webp",
     "isLarge": false
   },
   {
@@ -1341,7 +1341,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-42.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-42.webp",
     "isLarge": false
   },
   {
@@ -1349,7 +1349,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-43.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-43.webp",
     "isLarge": true
   },
   {
@@ -1357,7 +1357,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-44.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-44.webp",
     "isLarge": false
   },
   {
@@ -1365,7 +1365,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-45.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-45.webp",
     "isLarge": false
   },
   {
@@ -1373,7 +1373,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-46.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-46.webp",
     "isLarge": false
   },
   {
@@ -1381,7 +1381,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-47.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-47.webp",
     "isLarge": true
   },
   {
@@ -1389,7 +1389,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-48.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-48.webp",
     "isLarge": false
   },
   {
@@ -1397,7 +1397,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-49.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-49.webp",
     "isLarge": false
   },
   {
@@ -1405,7 +1405,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-5.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-5.webp",
     "isLarge": false
   },
   {
@@ -1413,7 +1413,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-50.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-50.webp",
     "isLarge": true
   },
   {
@@ -1421,7 +1421,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-51.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-51.webp",
     "isLarge": false
   },
   {
@@ -1429,7 +1429,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-52.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-52.webp",
     "isLarge": false
   },
   {
@@ -1437,7 +1437,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-53.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-53.webp",
     "isLarge": false
   },
   {
@@ -1445,7 +1445,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-54.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-54.webp",
     "isLarge": true
   },
   {
@@ -1453,7 +1453,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-55.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-55.webp",
     "isLarge": false
   },
   {
@@ -1461,7 +1461,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-56.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-56.webp",
     "isLarge": false
   },
   {
@@ -1469,7 +1469,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-57.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-57.webp",
     "isLarge": false
   },
   {
@@ -1477,7 +1477,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-58.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-58.webp",
     "isLarge": true
   },
   {
@@ -1485,7 +1485,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-59.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-59.webp",
     "isLarge": false
   },
   {
@@ -1493,7 +1493,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-6.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-6.webp",
     "isLarge": false
   },
   {
@@ -1501,7 +1501,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-60.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-60.webp",
     "isLarge": false
   },
   {
@@ -1509,7 +1509,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-61.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-61.webp",
     "isLarge": true
   },
   {
@@ -1517,7 +1517,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-62.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-62.webp",
     "isLarge": false
   },
   {
@@ -1525,7 +1525,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-7.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-7.webp",
     "isLarge": false
   },
   {
@@ -1533,7 +1533,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-8.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-8.webp",
     "isLarge": false
   },
   {
@@ -1541,7 +1541,7 @@ const portfolioImages = [
     "categoryId": "residential",
     "categoryName": "عمائر ووحدات سكنية",
     "title": "عمائر ووحدات سكنية",
-    "imagePath": "assets/images/portfolio/residential/res-9.webp",
+    "imagePath": "/assets/images/portfolio/residential/res-9.webp",
     "isLarge": true
   },
   {
@@ -1549,7 +1549,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-1.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-1.webp",
     "isLarge": false
   },
   {
@@ -1557,7 +1557,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-10.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-10.webp",
     "isLarge": false
   },
   {
@@ -1565,7 +1565,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-11.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-11.webp",
     "isLarge": false
   },
   {
@@ -1573,7 +1573,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-12.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-12.webp",
     "isLarge": true
   },
   {
@@ -1581,7 +1581,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-13.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-13.webp",
     "isLarge": false
   },
   {
@@ -1589,7 +1589,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-14.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-14.webp",
     "isLarge": false
   },
   {
@@ -1597,7 +1597,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-15.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-15.webp",
     "isLarge": false
   },
   {
@@ -1605,7 +1605,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-16.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-16.webp",
     "isLarge": true
   },
   {
@@ -1613,7 +1613,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-17.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-17.webp",
     "isLarge": false
   },
   {
@@ -1621,7 +1621,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-18.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-18.webp",
     "isLarge": false
   },
   {
@@ -1629,7 +1629,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-19.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-19.webp",
     "isLarge": false
   },
   {
@@ -1637,7 +1637,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-2.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-2.webp",
     "isLarge": true
   },
   {
@@ -1645,7 +1645,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-20.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-20.webp",
     "isLarge": false
   },
   {
@@ -1653,7 +1653,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-21.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-21.webp",
     "isLarge": false
   },
   {
@@ -1661,7 +1661,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-22.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-22.webp",
     "isLarge": false
   },
   {
@@ -1669,7 +1669,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-23.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-23.webp",
     "isLarge": true
   },
   {
@@ -1677,7 +1677,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-24.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-24.webp",
     "isLarge": false
   },
   {
@@ -1685,7 +1685,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-25.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-25.webp",
     "isLarge": false
   },
   {
@@ -1693,7 +1693,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-26.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-26.webp",
     "isLarge": false
   },
   {
@@ -1701,7 +1701,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-27.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-27.webp",
     "isLarge": true
   },
   {
@@ -1709,7 +1709,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-28.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-28.webp",
     "isLarge": false
   },
   {
@@ -1717,7 +1717,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-29.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-29.webp",
     "isLarge": false
   },
   {
@@ -1725,7 +1725,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-3.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-3.webp",
     "isLarge": false
   },
   {
@@ -1733,7 +1733,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-30.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-30.webp",
     "isLarge": true
   },
   {
@@ -1741,7 +1741,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-31.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-31.webp",
     "isLarge": false
   },
   {
@@ -1749,7 +1749,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-32.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-32.webp",
     "isLarge": false
   },
   {
@@ -1757,7 +1757,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-33.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-33.webp",
     "isLarge": false
   },
   {
@@ -1765,7 +1765,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-4.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-4.webp",
     "isLarge": true
   },
   {
@@ -1773,7 +1773,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-5.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-5.webp",
     "isLarge": false
   },
   {
@@ -1781,7 +1781,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-6.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-6.webp",
     "isLarge": false
   },
   {
@@ -1789,7 +1789,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-7.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-7.webp",
     "isLarge": false
   },
   {
@@ -1797,7 +1797,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-8.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-8.webp",
     "isLarge": true
   },
   {
@@ -1805,7 +1805,7 @@ const portfolioImages = [
     "categoryId": "villas",
     "categoryName": "فلل وقصور سكنية",
     "title": "فلل وقصور سكنية",
-    "imagePath": "assets/images/portfolio/villas/villa-9.webp",
+    "imagePath": "/assets/images/portfolio/villas/villa-9.webp",
     "isLarge": false
   }
 ];
